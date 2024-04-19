@@ -1,3 +1,6 @@
+# Tomcat application lounch with student war file.
+
+
 FROM centos:7
 RUN yum update -y
 RUN yum install java openjdk -y
