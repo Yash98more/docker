@@ -25,8 +25,8 @@
     <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
     <Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource"
            maxTotal="500" maxIdle="30" maxWaitMillis="1000"
-           username="mydblogin" password="mydbpassword" driverClassName="com.mysql.jdbc.Driver"
-           url="jdbc:mysql://RDS database endpoint:3306/mysql database name?useUnicode=yes&amp;characterEncoding=utf8"/>
+           username="admin" password="12345678" driverClassName="com.mysql.jdbc.Driver"
+           url="jdbc:mysql://database-1.cv0yewwoimd3.eu-west-3.rds.amazonaws.com:3306/mysql database name?useUnicode=yes&amp;characterEncoding=utf8"/>
 
 
     <!-- Uncomment this to enable session persistence across Tomcat restarts -->
