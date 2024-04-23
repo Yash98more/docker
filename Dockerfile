@@ -27,3 +27,12 @@ COPY context.xml /opt/apache-tomcat-8.5.100/conf/context.xml
 ENV Name="Jarvis_Home"
 EXPOSE 8080
 CMD ["./catalina.sh", "run"]
+
+
+
+# sudo docker build . -t studentapp:v1
+# sudo docker images
+# sudo docker run -d -P --name=studentapp_prod cd089a9ebcc3
+# sudo docker ps
+# sudo docker top 110764c5bc13
+# sudo docker ps
